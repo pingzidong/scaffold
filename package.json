@@ -1,0 +1,8 @@
+{
+    "name": "okii-cli",
+    "version": "1.0.0",
+    "description": "基于node的脚手架工具",
+    "bin": {
+      "okii": "index.js"
+    }
+  }
