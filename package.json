@@ -1,8 +1,19 @@
 {
-    "name": "okii-cli",
-    "version": "1.0.0",
-    "description": "基于node的脚手架工具",
-    "bin": {
-      "okii": "index.js"
-    }
+  "name": "okii-cli",
+  "version": "1.0.0",
+  "description": "基于node的脚手架工具",
+  "bin": {
+    "okii": "index.js"
+  },
+  "dependencies": {
+    "chalk": "^3.0.0",
+    "commander": "^5.0.0",
+    "download-git-repo": "^3.0.2",
+    "fs": "0.0.1-security",
+    "handlebars": "^4.7.3",
+    "http": "0.0.1-security",
+    "inquirer": "^7.1.0",
+    "log-symbols": "^3.0.0",
+    "ora": "^4.0.3"
   }
+}
